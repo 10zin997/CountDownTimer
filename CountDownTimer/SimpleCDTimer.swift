@@ -25,6 +25,9 @@ struct SimpleCD: View {
             }
             
         }
+        .onAppear{
+            remainingSeconds = 10
+        }
         
     }
 }

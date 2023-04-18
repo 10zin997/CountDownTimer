@@ -37,6 +37,9 @@ struct CircularCD: View {
           
             
         }
+        .onAppear{
+            remainingSeconds = 10
+        }
     }
 }
 

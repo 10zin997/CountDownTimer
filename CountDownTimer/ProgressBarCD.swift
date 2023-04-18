@@ -32,6 +32,9 @@ struct ProgressBarCD: View {
                 timer.upstream.connect().cancel()
             }
         }
+        .onAppear{
+            remainingSeconds = 10
+        }
     }
 }
 

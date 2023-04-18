@@ -14,6 +14,8 @@
 		B10CBFD429EF22E30061B86E /* CircularCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10CBFD329EF22E30061B86E /* CircularCD.swift */; };
 		B10CBFD629EF24ED0061B86E /* SimpleCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10CBFD529EF24ED0061B86E /* SimpleCDTimer.swift */; };
 		B10CBFD829EF26580061B86E /* ProgressBarCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10CBFD729EF26580061B86E /* ProgressBarCD.swift */; };
+		B10CBFDC29EF29D70061B86E /* SandCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10CBFDB29EF29D70061B86E /* SandCD.swift */; };
+		B10CBFE029EF2A490061B86E /* PieChartCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10CBFDF29EF2A490061B86E /* PieChartCD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B10CBFD329EF22E30061B86E /* CircularCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCD.swift; sourceTree = "<group>"; };
 		B10CBFD529EF24ED0061B86E /* SimpleCDTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCDTimer.swift; sourceTree = "<group>"; };
 		B10CBFD729EF26580061B86E /* ProgressBarCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarCD.swift; sourceTree = "<group>"; };
+		B10CBFDB29EF29D70061B86E /* SandCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandCD.swift; sourceTree = "<group>"; };
+		B10CBFDF29EF2A490061B86E /* PieChartCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartCD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				B10CBFD529EF24ED0061B86E /* SimpleCDTimer.swift */,
 				B10CBFD329EF22E30061B86E /* CircularCD.swift */,
 				B10CBFD729EF26580061B86E /* ProgressBarCD.swift */,
+				B10CBFDB29EF29D70061B86E /* SandCD.swift */,
+				B10CBFDF29EF2A490061B86E /* PieChartCD.swift */,
 				B10CBFC929EF22A70061B86E /* Assets.xcassets */,
 				B10CBFCB29EF22A70061B86E /* Preview Content */,
 			);
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10CBFDC29EF29D70061B86E /* SandCD.swift in Sources */,
 				B10CBFD629EF24ED0061B86E /* SimpleCDTimer.swift in Sources */,
+				B10CBFE029EF2A490061B86E /* PieChartCD.swift in Sources */,
 				B10CBFD429EF22E30061B86E /* CircularCD.swift in Sources */,
 				B10CBFC829EF22A70061B86E /* ContentView.swift in Sources */,
 				B10CBFD829EF26580061B86E /* ProgressBarCD.swift in Sources */,

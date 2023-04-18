@@ -10,10 +10,29 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            SimpleCD()
-            CircularCD()
-            ProgressBarCD()
-           
+            TabView{
+                SimpleCD()
+                    .tabItem{
+                        Label("Simple", systemImage: "list.number")
+                    }
+                CircularCD()
+                    .tabItem{
+                        Label("Circular", systemImage: "10.circle")
+                    }
+                ProgressBarCD()
+                    .tabItem{
+                        Label("Progress", systemImage: "cable.connector.horizontal")
+                    }
+                SandCD()
+                    .tabItem{
+                        Label("Sand", systemImage: "circle.dotted")
+                    }
+                PieChartCD()
+                    .tabItem{
+                        Label("Pie", systemImage: "chart.pie.fill")
+                    }
+                
+            }
         }
     }
 }
